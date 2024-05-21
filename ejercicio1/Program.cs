@@ -1,3 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Fernando");
-Console.ReadLine();
+﻿
+Console.WriteLine("Introduce tu nombre:");
+string nombre = Console.ReadLine();
+Console.WriteLine("Introduce una Ciudad:");
+string ciudad = Console.ReadLine();
+
+Console.WriteLine("Hola " + nombre + " bienvenido a" + ciudad);
+
